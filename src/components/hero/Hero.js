@@ -22,7 +22,8 @@ const Hero = ({movies}) => {
         {
             movies?.map((movie) =>{
                 return(
-                    <Paper key={movie.imdbId}>              ///////// Makes it so the movie is identifiable by its imdbId
+                    // Makes it so the movie is identifiable by its imdbId
+                    <Paper key={movie.imdbId}>              
                         <div className = 'movie-card-container'>
                             <div className="movie-card" style={{"--img": `url(${movie.backdrops[0]})`}}>
                                 <div className="movie-detail">
