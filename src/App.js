@@ -61,6 +61,8 @@ function App() {
   }, []);
 
   // Add Components here. 
+  // so components are rendered when we naviagte to a url like /Trailer/abc123. TRailer component is rendered. 
+  // pass abc123 as a      -----> properties <------     to the Trailer component.
   return (
     <div className="App">
       <Header/>
